@@ -36,7 +36,7 @@ namespace APICatalogo.Controllers
             {
 
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Ocorreu um problema ao tratar a sua solicitação.");
+                    "Ocorreu um problema ao tratar a sua solicitação!");
             }
             
         }
